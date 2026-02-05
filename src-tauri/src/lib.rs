@@ -7,6 +7,15 @@ use models::Database;
 
 // Helper to get the db path
 fn get_db_path(app: &tauri::AppHandle) -> PathBuf {
+    // 1. Try executable directory (Portable Mode)
+    if let Ok(exe_path) = app.path().exe_dir() {
+        let portable_path = exe_path.join("db.json");
+        if portable_path.exists() {
+            return portable_path;
+        }
+    }
+
+    // 2. Fallback to standard app data dir
     let path = app.path().app_data_dir().expect("failed to get app data dir");
     if !path.exists() {
         fs::create_dir_all(&path).expect("failed to create app data dir");
