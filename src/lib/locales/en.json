@@ -1,0 +1,122 @@
+{
+    "sidebar": {
+        "institution": "University LMS",
+        "role": "Instructor Portal",
+        "menu": "Main Menu",
+        "dashboard": "Dashboard",
+        "courses": "Courses",
+        "students": "Students",
+        "grades": "Grade Center",
+        "attendance": "Attendance",
+        "reports": "Reports",
+        "system": "System",
+        "settings": "Settings",
+        "language_label": "Language"
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "welcome": "Welcome back, Professor. Here's what's happening today.",
+        "metrics": {
+            "total_students": "Enrolled Students",
+            "active_courses": "Courses Taught",
+            "avg_performance": "Average Performance",
+            "pending": "Assignments to Grade"
+        },
+        "quick_actions": "Quick Actions",
+        "enter_grades": "Enter Grades",
+        "enter_grades_desc": "Update exam scores and coursework.",
+        "mark_attendance": "Mark Attendance",
+        "mark_attendance_desc": "Log absences and leaves.",
+        "course_overview": "Course Overview",
+        "view_class": "View Class",
+        "status": {
+            "title": "System Status",
+            "db_status": "Database Status",
+            "online": "Online & Synced",
+            "storage": "Storage Used",
+            "backup": "Last Backup",
+            "version": "Version"
+        }
+    },
+    "subjects": {
+        "title": "Courses",
+        "subtitle": "Manage your active courses and marking schemes.",
+        "create_course": "Create Course",
+        "create_first_course": "Create First Course",
+        "no_courses": "No courses yet",
+        "no_courses_desc": "Get started by creating your first course to manage students, grades, and attendance.",
+        "max_score": "Max Score",
+        "open_gradebook": "Open Gradebook",
+        "edit": "Edit",
+        "delete": "Delete",
+        "delete_confirm": "Are you sure you want to delete this course?"
+    },
+    "students": {
+        "title": "Student Roster",
+        "subtitle": "Directory of all enrolled students.",
+        "add_student": "Add New Student",
+        "import_excel": "Import Excel",
+        "search_placeholder": "Search by name or ID...",
+        "count_label": "Students",
+        "no_students_title": "No students added yet",
+        "no_results_title": "No results found",
+        "no_students_desc": "Add a student to get started.",
+        "no_results_desc": "Try adjusting your search terms.",
+        "table": {
+            "id_username": "ID / Username",
+            "full_name": "Full Name",
+            "contact": "Contact",
+            "actions": "Actions",
+            "no_email": "No email"
+        }
+    },
+    "grades": {
+        "title": "Grade Center",
+        "subtitle": "Input and manage student grades.",
+        "select_subject": "Select Subject",
+        "select_subject_placeholder": "Select Subject",
+        "no_subject_selected": "No Subject Selected",
+        "select_subject_prompt": "Please select a course to start grading.",
+        "no_students": "No Students",
+        "no_students_prompt": "Add students in the \"Student Roster\" tab to see them here.",
+        "grid": {
+            "student": "Student",
+            "exam1": "Exam 1",
+            "exam2": "Exam 2",
+            "coursework": "CW",
+            "final": "Final",
+            "max": "Max",
+            "total": "Total"
+        }
+    },
+    "attendance": {
+        "title": "Attendance",
+        "subtitle": "Track and manage student absences.",
+        "select_subject_prompt": "Select a subject to manage attendance.",
+        "no_students_enrolled": "No students enrolled in the system.",
+        "table": {
+            "student": "Student",
+            "status": "Status Overview",
+            "last_absence": "Last Absence",
+            "actions": "Actions",
+            "absence": "Absence",
+            "absences": "Absences",
+            "manage": "Manage"
+        }
+    },
+    "reports": {
+        "title": "Reports Center",
+        "subtitle": "Generate and download course performance reports.",
+        "select_prompt": "Select a subject to view export options.",
+        "pdf": {
+            "title": "Printable Report (PDF)",
+            "description": "Generate a high-quality PDF specifically formatted for printing. Includes grade distribution, absence summary, and student roster.",
+            "button": "Download PDF Check"
+        },
+        "excel": {
+            "title": "Raw Data (Excel)",
+            "description": "Export all detailed records to a spreadsheet. Ideal for performing custom analysis, importing into other systems, or creating backups.",
+            "button": "Download .xlsx"
+        }
+    }
+}

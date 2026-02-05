@@ -1,0 +1,122 @@
+{
+    "sidebar": {
+        "institution": "نظام إدارة الجامعة",
+        "role": "بوابة المحاضر",
+        "menu": "القائمة الرئيسية",
+        "dashboard": "لوحة التحكم",
+        "courses": "المقررات الدراسية",
+        "students": "الطلاب",
+        "grades": "سجل الدرجات",
+        "attendance": "الحضور والغياب",
+        "reports": "التقارير",
+        "system": "النظام",
+        "settings": "الإعدادات",
+        "language_label": "اللغة"
+    },
+    "dashboard": {
+        "title": "لوحة التحكم",
+        "welcome": "مرحباً بك، أستاذ. إليك ملخص اليوم.",
+        "metrics": {
+            "total_students": "الطلاب المسجلين",
+            "active_courses": "مقررات قيد التدريس",
+            "avg_performance": "متوسط الأداء",
+            "pending": "واجبات للتصحيح"
+        },
+        "quick_actions": "إجراءات سريعة",
+        "enter_grades": "رصد الدرجات",
+        "enter_grades_desc": "تحديث درجات الاختبارات والأعمال الفصلية.",
+        "mark_attendance": "تسجيل الحضور",
+        "mark_attendance_desc": "تسجيل الغياب والأعذار.",
+        "course_overview": "نظرة عامة على المقررات",
+        "view_class": "عرض الفصل",
+        "status": {
+            "title": "حالة النظام",
+            "db_status": "حالة قاعدة البيانات",
+            "online": "متصل ومتزامن",
+            "storage": "المساحة المستخدمة",
+            "backup": "آخر نسخ احتياطي",
+            "version": "الإصدار"
+        }
+    },
+    "subjects": {
+        "title": "المقررات الدراسية",
+        "subtitle": "إدارة المقررات النشطة وأنظمة التقييم.",
+        "create_course": "إنشاء مقرر",
+        "create_first_course": "إنشاء أول مقرر",
+        "no_courses": "لا توجد مقررات بعد",
+        "no_courses_desc": "ابدأ بإنشاء أول مقرر لإدارة الطلاب والدرجات والحضور.",
+        "max_score": "الدرجة العظمى",
+        "open_gradebook": "فتح سجل الدرجات",
+        "edit": "تعديل",
+        "delete": "حذف",
+        "delete_confirm": "هل أنت متأكد من رغبتك في حذف هذا المقرر؟"
+    },
+    "students": {
+        "title": "قائمة الطلاب",
+        "subtitle": "دليل بجميع الطلاب المسجلين.",
+        "add_student": "إضافة طالب جديد",
+        "import_excel": "استيراد ملف Excel",
+        "search_placeholder": "بحث بالاسم أو الرقم الجامعي...",
+        "count_label": "طالب",
+        "no_students_title": "لم يتم إضافة طلاب بعد",
+        "no_results_title": "لم يتم العثور على نتائج",
+        "no_students_desc": "أضف طالباً للبدء.",
+        "no_results_desc": "حاول تعديل مصطلحات البحث.",
+        "table": {
+            "id_username": "الرقم الجامعي / المستخدم",
+            "full_name": "الاسم الكامل",
+            "contact": "وسيلة الاتصال",
+            "actions": "إجراءات",
+            "no_email": "لا يوجد بريد إلكتروني"
+        }
+    },
+    "grades": {
+        "title": "سجل الدرجات",
+        "subtitle": "رصد وإدارة درجات الطلاب.",
+        "select_subject": "اختر المقرر",
+        "select_subject_placeholder": "اختر المقرر",
+        "no_subject_selected": "لم يتم اختيار مقرر",
+        "select_subject_prompt": "يرجى اختيار مقرر للبدء في رصد الدرجات.",
+        "no_students": "لا يوجد طلاب",
+        "no_students_prompt": "أضف طلاباً في تبويب \"قائمة الطلاب\" ليظهروا هنا.",
+        "grid": {
+            "student": "الطالب",
+            "exam1": "اخ 1",
+            "exam2": "اخ 2",
+            "coursework": "فصلي",
+            "final": "نهائي",
+            "max": "عظمى",
+            "total": "المجموع"
+        }
+    },
+    "attendance": {
+        "title": "الحضور والغياب",
+        "subtitle": "متابعة وإدارة غياب الطلاب.",
+        "select_subject_prompt": "اختر مقرراً لإدارة الحضور.",
+        "no_students_enrolled": "لا يوجد طلاب مسجلون في النظام.",
+        "table": {
+            "student": "الطالب",
+            "status": "نظرة عامة للحالة",
+            "last_absence": "آخر غياب",
+            "actions": "إجراءات",
+            "absence": "غياب",
+            "absences": "غيابات",
+            "manage": "إدارة"
+        }
+    },
+    "reports": {
+        "title": "مركز التقارير",
+        "subtitle": "توليد وتحميل تقارير أداء المقررات.",
+        "select_prompt": "اختر مقرراً لعرض خيارات التصدير.",
+        "pdf": {
+            "title": "تقرير قابل للطباعة (PDF)",
+            "description": "توليد ملف PDF عالي الجودة منسق للطباعة. يتضمن توزيع الدرجات، ملخص الغياب، وقائمة الطلاب.",
+            "button": "تحميل PDF"
+        },
+        "excel": {
+            "title": "بيانات أولية (Excel)",
+            "description": "تصدير جميع السجلات التفصيلية إلى جدول بيانات. مثالي لإجراء تحليل مخصص أو الاستيراد إلى أنظمة أخرى.",
+            "button": "تحميل .xlsx"
+        }
+    }
+}
