@@ -37,8 +37,7 @@
           "English",
           "Arabic"
         ],
-        "displayLanguageSelector": true,
-        "portable": true
+        "displayLanguageSelector": true
       }
     }
   }

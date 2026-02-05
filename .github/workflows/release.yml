@@ -39,6 +39,7 @@ jobs:
         run: npm install
 
       - name: Build the app
+        id: tauri
         uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -49,3 +50,14 @@ jobs:
           releaseDraft: true
           prerelease: false
           projectPath: ./
+
+      - name: Upload Standalone EXE (Windows only)
+        if: matrix.platform == 'windows-latest'
+        shell: pwsh
+        run: |
+          $exePath = Get-ChildItem -Path src-tauri/target/release/ -Filter *.exe -Recurse | Select-Object -First 1
+          if ($exePath) {
+            gh release upload v${{ steps.tauri.outputs.appVersion }} $exePath.FullName --clobber
+          }
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
